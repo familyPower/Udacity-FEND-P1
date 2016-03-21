@@ -1,0 +1,100 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #747704;
+  font-weight: 300;
+}
+
+.text-muted {
+  color: #BCBBBB
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-logo {
+  margin-top: 20px;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+/* Navbar */
+.navbar-margin {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* Navbar header text */
+.navbar-header-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: blue;
+  font-style: italic;
+}
+
+.hr-margin {
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+
+.vacation-image-margin {
+   margin-bottom: 10px;
+}
+
+/*
+  Some images were displayed rotated -90 degrees. The below code corrects
+  this by rotating the image 90 degrees.
+*/
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/*
+  The acknowledgement in the footer should be right aligned, italics,
+  small font, and blue.
+*/
+.acknowledgments-style {
+  font-size: 10px;
+  margin-top: 20px;
+  margin-right: 5px;
+  color: blue;
+}
+
+.acknowledgments-item-style {
+  color: green;
+}
+
+/*
+  This class is for the images of the kids. These images are right beside the
+  image of me.
+*/
+.thumbnail-img {
+    max-width: 135px;
+}
+
+/*
+  I want to display a small image of the kids, one above the other. The images
+  wouldn't align properly at first. I googled until I found a solution. The
+  code below aligns the images vertically and leaves a space between them.
+  The name is very specific, primarily because of "margin-top". I doubt the
+  value of "margin-top" will be the same in each case.
+*/
+.vert-align-kids-pix {
+  display: block;
+}
+
+.vert-align-kids-pix-bottom {
+  margin-top: 2px;
+  vertical-align: bottom;
+}
+
+.portrait {
+  width: 100%;
+}
